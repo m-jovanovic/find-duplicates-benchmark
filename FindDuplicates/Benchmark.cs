@@ -5,7 +5,6 @@ namespace FindDuplicates;
 [MemoryDiagnoser(false)]
 public class Benchmark
 {
-    private static readonly Random Random = new();
     private static IEnumerable<int> _enumerable;
     private static ICollection<int> _collection;
 
