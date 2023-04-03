@@ -180,3 +180,8 @@ Calling the constructor overload for HashSet with the collection size can improv
 To detect a duplicate, we compare the distinct count to the enumerable count, which may cause multiple enumerations of the collection.
 
 https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca1851
+
+## Contributors
+
+- [@darren-clark](https://github.com/darren-clark)
+- [@GeorgeTsiokos](https://github.com/GeorgeTsiokos)
