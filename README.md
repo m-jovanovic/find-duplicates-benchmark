@@ -199,3 +199,4 @@ https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rule
 
 - [@darren-clark](https://github.com/darren-clark)
 - [@GeorgeTsiokos](https://github.com/GeorgeTsiokos)
+- [@rchoffardet](https://github.com/rchoffardet)
