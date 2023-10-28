@@ -59,6 +59,12 @@ public class Benchmark
         return ContainsDuplicates.ToHashSet(_collection);
     }
 
+    [Benchmark]
+    public bool TwoPointers()
+    {
+        return ContainsDuplicates.TwoPointers(_collection);
+    }
+
     private int? GetDuplicateIndex() => DuplicateLocation switch
     {
         Location.None => default,

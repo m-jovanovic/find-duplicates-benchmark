@@ -60,4 +60,22 @@ public static class ContainsDuplicates
 
         return enumerable.ToHashSet().Count != count;
     }
+
+    public static bool TwoPointers<T>(IEnumerable<T> enumerable)
+    {
+        var list = enumerable.ToList();
+        var left = 0;
+        var right = left + 1;
+
+        while (right < list.Count)
+        {
+            if (EqualityComparer<T>.Default.Equals(list[left], list[right]))
+                return true;
+
+            left++;
+            right++;
+        }
+
+        return false;
+    }
 }
